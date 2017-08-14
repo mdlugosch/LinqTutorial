@@ -1,0 +1,21 @@
+c:\users\b105840\documents\visual studio 2015\Projects\LinqTutorial\LinqTutorial\bin\Debug\LinqTutorial.exe.config
+c:\users\b105840\documents\visual studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\MainWindow.g.cs
+c:\users\b105840\documents\visual studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\App.g.cs
+c:\users\b105840\documents\visual studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial_MarkupCompile.cache
+c:\users\b105840\documents\visual studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial_MarkupCompile.lref
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.exe
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.pdb
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\bin\Debug\LinqTutorial.exe
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\bin\Debug\LinqTutorial.pdb
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\MainWindow.baml
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.g.resources
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.Properties.Resources.resources
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.csproj.GenerateResource.Cache
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\Page1.g.cs
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\Page2.g.cs
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\Page1.baml
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\Page2.baml
+c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.csprojResolveAssemblyReference.cache
+C:\GitHub\LinqTutorial\LinqTutorial\bin\Debug\LinqTutorial.exe.config
+C:\GitHub\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.exe
+C:\GitHub\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.pdb
