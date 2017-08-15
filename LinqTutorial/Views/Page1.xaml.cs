@@ -19,12 +19,12 @@ namespace LinqTutorial
     /// <summary>
     /// Interaktionslogik für Page1.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Page1 : UserControl
     {
         public Page1()
         {
-            InitializeComponent();
             DataContext = new Page1ViewModel();
+            InitializeComponent();
         }
     }
 }

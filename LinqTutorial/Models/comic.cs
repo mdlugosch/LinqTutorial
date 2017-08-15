@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinqTutorial.Models
 {
-  public class Comic
+  public class Comic : ModelBase
         {
             public string Name { get; set; }
             public int Folge { get; set; }

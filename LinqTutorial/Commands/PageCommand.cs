@@ -10,9 +10,9 @@ namespace LinqTutorial.Commands
         public event EventHandler CanExecuteChanged;
 
         NavigationService root;
-        Page dest;
+        UserControl dest;
 
-        public PageCommand(NavigationService root, Page dest)
+        public PageCommand(NavigationService root, UserControl dest)
         {
             this.root = root;
             this.dest = dest;

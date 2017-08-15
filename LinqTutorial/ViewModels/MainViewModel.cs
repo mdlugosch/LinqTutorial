@@ -50,5 +50,21 @@ namespace LinqTutorial.ViewModels
             }
         }
 
+        public PageCommand seite3;
+        public PageCommand Seite3
+        {
+            get
+            {
+                if (seite3 == null)
+                {
+                    seite3 = new PageCommand(root, new Page3());
+                }
+                return seite3;
+            }
+            set
+            {
+                seite3 = value;
+            }
+        }
     }
 }

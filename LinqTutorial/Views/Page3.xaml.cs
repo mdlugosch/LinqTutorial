@@ -17,14 +17,14 @@ using System.Windows.Shapes;
 namespace LinqTutorial
 {
     /// <summary>
-    /// Interaktionslogik für Page2.xaml
+    /// Interaktionslogik für Page3.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class Page3 : UserControl
     {
-        public Page2()
+        public Page3()
         {
+            DataContext = new Page3ViewModel();
             InitializeComponent();
-            DataContext = new Page2ViewModel();
         }
     }
 }

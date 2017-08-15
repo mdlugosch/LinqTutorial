@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\obj\Debug\
+C:\GitHub\LinqTutorial\LinqTutorial\obj\Debug\
 LinqTutorial
 none
 false
 DEBUG;TRACE
-c:\Users\B105840\Documents\Visual Studio 2015\Projects\LinqTutorial\LinqTutorial\App.xaml
-3-349979442
+C:\GitHub\LinqTutorial\LinqTutorial\App.xaml
+4-1219913982
 
-141027707744
+201495565433
 13738642453
-MainWindow.xaml;Page1.xaml;Page2.xaml;
+Views\Page2.xaml;Views\Page3.xaml;Views\Page1.xaml;Views\MainWindow.xaml;
 
 False
 
