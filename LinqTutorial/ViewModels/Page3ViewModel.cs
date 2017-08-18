@@ -62,6 +62,7 @@ namespace LinqTutorial.ViewModels
              */
             foreach (string prop in activePropereties)
             {
+                Console.WriteLine(prop);
                 switch(prop)
                 {
                     case "Title":

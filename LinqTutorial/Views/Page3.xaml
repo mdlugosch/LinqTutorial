@@ -27,9 +27,13 @@
         </StackPanel>
         <StackPanel MinWidth="200" Grid.Column="1" Grid.Row="1">
             <Label Content="Seitenzahl:" />
-            <TextBox Text="{Binding Path=Pages, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}" x:Name="tb_pages" Margin="5 0 5 0" />
+            <!--  
+            TargetNullValue='' setzt automatisch einen Wert wenn nichts in der Box ist
+            (wichtig für Zahlen)
+            -->
+            <TextBox Text="{Binding Path=Pages, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource, TargetNullValue=''}" x:Name="tb_pages" Margin="5 0 5 0" />
             <Label Content="Bewertung:" />
-            <TextBox Text="{Binding Path=Popularity, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}" x:Name="tb_pop" Margin="5 0 5 0"/>
+            <TextBox Text="{Binding Path=Popularity, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource, TargetNullValue=''}" x:Name="tb_pop" Margin="5 0 5 0"/>
             <StackPanel Orientation="Horizontal">
                 <Label Content="auf Lager:" />
                 <CheckBox IsChecked="{Binding Path=IsInStock, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}" x:Name="cb_isInStock" Margin="0 8 0 0" />

@@ -37,3 +37,4 @@ C:\GitHub\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.Properties.Resources.
 C:\GitHub\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.csproj.GenerateResource.Cache
 C:\GitHub\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.exe
 C:\GitHub\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.pdb
+C:\GitHub\LinqTutorial\LinqTutorial\obj\Debug\LinqTutorial.csprojResolveAssemblyReference.cache
