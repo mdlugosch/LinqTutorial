@@ -21,7 +21,8 @@
         <StackPanel Grid.Row="0"  Orientation="Horizontal">
             <Button Content="Seite 1" MinWidth="100" Command="{Binding Seite1}" />
             <Button Content="Seite 2" MinWidth="100" Command="{Binding Seite2}" />
-            <Button Content="Seite 3" MinWidth="100" Command="{Binding Seite3}" /> 
+            <Button Content="Seite 3" MinWidth="100" Command="{Binding Seite3}" />
+            <Button Content="Seite 4" MinWidth="100" Command="{Binding Seite4}" />
         </StackPanel>
         <Frame Grid.Row="1" NavigationUIVisibility="Hidden" x:Name="Main" />
     </Grid>

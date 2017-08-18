@@ -1,6 +1,7 @@
 ﻿using LinqTutorial.Commands;
 using LinqTutorial.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -46,51 +47,45 @@ namespace LinqTutorial.ViewModels
 
         public void BuildQuery()
         {
-            /*
-            MessageBox.Show(String.Format("Titel: {0} Beschreibung: {1} Seiten: {2} Bewertung: {3} auf Lager: {4}", 
-                                            Title, Description, Pages, Popularity, IsInStock));
-                                            */
-
-            int queryLevel = 0;
-
+            // PropertyListe wird generiert
+            List<string> activePropereties=null;
+            activePropereties = PropertyList.PropertyCheck(this);
+            
             var query = from book in books
-                              select book;
+                        select book;
 
-            AktuelleAbfrageergebnisse.Clear();
-
-            if (!String.IsNullOrEmpty(Title))
+            /*
+             * Der PropertyCheck sorgt dafür das nur Properties
+             * in der der PropertyListe sind die Inhalte haben
+             * Die Liste wird durchlaufen und bestimmte Properties
+             * aus der Liste sorgen für das Anhängen von LinQ-Clauses
+             */
+            foreach (string prop in activePropereties)
             {
-                queryLevel++;
-                query = query.Where(book => book.Title.Contains(this.Title));
-            }
-
-            if (Pages!=null || Pages<=0) {
-                queryLevel++;
-                query = query.Where(book => book.Pages == this.Pages);
-            }
-
-            if (!String.IsNullOrEmpty(Description))
-            {
-                queryLevel++;
-                query = query.Where(book => book.Description.Contains(this.Description));
-            }
-
-            if (Popularity != null || Popularity < 0)
-            {
-                queryLevel++;
-                query = query.Where(book => book.Popularity == this.Popularity);
-            }
-
-            if (queryLevel > 0)
-            {
+                switch(prop)
+                {
+                    case "Title":
+                        query = query.Where(book => book.Title.Contains(Title));
+                        break;
+                    case "Description":
+                        query = query.Where(book => book.Description.Contains(this.Description));
+                        break;
+                    case "Pages":
+                        query = query.Where(book => book.Pages == this.Pages);
+                        break;
+                    case "Popularity":
+                        query = query.Where(book => book.Popularity == this.Popularity);
+                        break;
+                }
+            }    
+                // Eine Checkbox ist immer teil der Clause. Da sie immer einen Wert hat.      
                 query = query.Where(book => book.IsInStock == this.IsInStock);
 
+                AktuelleAbfrageergebnisse.Clear();
                 foreach (Book book in query)
                 {
                     AktuelleAbfrageergebnisse.Add(book);
                 }
-            }
-
         }
     }
 }
